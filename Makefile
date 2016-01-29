@@ -21,7 +21,7 @@ container_name = demo-zwave-react
 
 run_args = --net=host
 
-.PHONY: clean clean-dangling build run-bash run-router run-demo stop logs exec
+.PHONY: clean clean-dangling build run-demo stop logs
 
 clean:
 	docker rmi $(image_name) || true

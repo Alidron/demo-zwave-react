@@ -1,27 +1,9 @@
-Demo NAO program
-================
+Demo ZWave react program
+========================
 
 [![Gitter](https://badges.gitter.im/gitterHQ/gitter.svg)](https://gitter.im/Alidron/talk)
 
-This is the program for NAO used in the FOSDEM talk.
-
-How to use
-==========
-
-* Clone this repository recursively:
-```
-$ git clone --recursive git@github.com:Alidron/demo-nao.git
-```
-* Copy some files on the robot:
-```
-$ scp -r alidron-env naoutil demo-alidron-nao.py start-demo-alidron-nao.sh nao@nao.local:
-```
-* Load the application from `Behaviour/AlidronDemo` in Choregraphe, and install it on the robot.
-* ssh on the robot and start the demo script:
-```
-$ ssh nao@nao.local
-$ ./start-demo-alidron-nao.sh
-```
+This is a small demo program used in the FOSDEM talk. It waits for a an input sensor to be activated to turn on or off a light.
 
 License and contribution policy
 ===============================
